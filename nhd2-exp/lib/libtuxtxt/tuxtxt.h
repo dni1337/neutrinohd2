@@ -1232,7 +1232,7 @@ unsigned char *aShapes[] =
 };
 
 /* lcd layout */
-const unsigned char lcd_layout[] =
+const char lcd_layout[] =
 {
 #define ____ 0x0
 #define ___X 0x1
@@ -1322,7 +1322,7 @@ const unsigned char lcd_layout[] =
 };
 
 /* lcd digits */
-const unsigned char lcd_digits[] =
+const char lcd_digits[] =
 {
 	0,1,1,1,1,1,1,1,1,0,
 	1,1,0,0,0,0,0,0,1,1,
