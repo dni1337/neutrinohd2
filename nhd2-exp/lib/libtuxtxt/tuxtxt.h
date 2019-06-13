@@ -1322,7 +1322,7 @@ const unsigned char lcd_layout[] =
 };
 
 /* lcd digits */
-const char lcd_digits[] =
+const unsigned char lcd_digits[] =
 {
 	0,1,1,1,1,1,1,1,1,0,
 	1,1,0,0,0,0,0,0,1,1,
