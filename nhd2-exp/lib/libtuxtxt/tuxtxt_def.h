@@ -5,6 +5,8 @@
 
 #include <config.h>
 
+#include <pthread.h>
+
 #define FLOFSIZE 4
 
 #define PAGESIZE (40*25)
