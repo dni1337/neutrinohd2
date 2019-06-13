@@ -17,7 +17,7 @@ else
 AM_CPPFLAGS += -I$(top_srcdir)/lib/libdvbapi
 endif
 
-AM_CPPFLAGS += -Wno-multichar
+AM_CPPFLAGS += -Wno-multichar -lpthread
 
 noinst_LIBRARIES = libtuxtxt.a
 
