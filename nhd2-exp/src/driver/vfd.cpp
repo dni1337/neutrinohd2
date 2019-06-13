@@ -136,11 +136,17 @@ CVFD::CVFD()
 						{
 							// probe /dev/oled0
 							fd = open("/dev/oled0", O_RDWR);
+							
+							if(fd < 0) 
+							{	
+								// probe /dev/lcd0
+								fd = open("/dev/lcd0", O_RDWR);
 						
-							if(fd < 0)
-							{
-								dprintf(DEBUG_NORMAL, "CVFD::init no VFD/LCD detected\n");
-								has_lcd = 0;
+								if(fd < 0)
+								{
+									dprintf(DEBUG_NORMAL, "CVFD::init no VFD/LCD detected\n");
+									has_lcd = 0;
+								}
 							}
 						}
 					}
