@@ -465,7 +465,7 @@ unsigned char restoreaudio = 0;
 /* typ_vcr/dvb: 	v1 a1 v2 a2 v3 a3 (vcr_only: fblk) */
 
 /* language dependent texts */
-#define MAXMENULANGUAGE 10 /* 0 deutsch, 1 englisch, 2 franzφsisch, 3 niederlδndisch, 4 griechisch, 5 italienisch, 6 polnisch, 7 schwedisch, 8 suomi, 9 portuguesa, 10 russian */
+#define MAXMENULANGUAGE 10 /* 0 deutsch, 1 englisch, 2 franzΓ¶sisch, 3 niederlΓ¤ndisch, 4 griechisch, 5 italienisch, 6 polnisch, 7 schwedisch, 8 suomi, 9 portuguesa, 10 russian */
 const int menusubset[] =   { NAT_DE   , NAT_UK    , NAT_FR       , NAT_UK          , NAT_GR      , NAT_IT       , NAT_PL    , NAT_SW      , NAT_SW ,   NAT_SP,      NAT_RB};//FIXME
 
 #define Menu_StartX (StartX + fontwidth*9/2)
@@ -562,365 +562,365 @@ const char configmenu[][Menu_Height*(Menu_Width+1)] =
 {
 	{
 /*     0123456789012345678901234567890 */
-                "ΰααααααααααααααααααααααααααααβθ"
-                "γ     Konfigurationsmen}     δι"
-                "εζζζζζζζζζζζζζζζζζζζζζζζζζζζζηι"
-                "γ1 Favoriten: Seite 111 dazu δι"
-                "γνξρς                        δι"
-                "γ+-?                         δι"
-                "γ                            δι"
-                "γ2     Teletext-Auswahl      δι"
-                "γν          suchen          ξδι"
-                "γ                            δι"
-                "γ      Bildschirmformat      δι"
-                "γ3  Standard-Modus 16:9      δι"
-                "γ                            δι"
-                "γ5        Helligkeit         δι"
-                "γν                          ξδι"
-                "γ6       Transparenz         δι"
-                "γν                          ξδι"
-                "γ7  nationaler Zeichensatz   δι"
-                "γautomatische Erkennung      δι"
-                "γν                          ξδι"
-                "γν Sprache/Language deutsch ξδι"
-                "εζ   www.tuxtxt.net  x.xx   ζηι"
-                "λμμμμμμμμμμμμμμμμμμμμμμμμμμμμμκ"
+                "Γ Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅ΓΆΓ¨"
+                "Γ£     Konfigurationsmen}     Γ¤Γ©"
+                "Γ¥Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ§Γ©"
+                "Γ£1 Favoriten: Seite 111 dazu Γ¤Γ©"
+                "Γ£Γ­Γ®Γ±Γ²                        Γ¤Γ©"
+                "Γ£+-?                         Γ¤Γ©"
+                "Γ£                            Γ¤Γ©"
+                "Γ£2     Teletext-Auswahl      Γ¤Γ©"
+                "Γ£Γ­          suchen          Γ®Γ¤Γ©"
+                "Γ£                            Γ¤Γ©"
+                "Γ£      Bildschirmformat      Γ¤Γ©"
+                "Γ£3  Standard-Modus 16:9      Γ¤Γ©"
+                "Γ£                            Γ¤Γ©"
+                "Γ£5        Helligkeit         Γ¤Γ©"
+                "Γ£Γ­                          Γ®Γ¤Γ©"
+                "Γ£6       Transparenz         Γ¤Γ©"
+                "Γ£Γ­                          Γ®Γ¤Γ©"
+                "Γ£7  nationaler Zeichensatz   Γ¤Γ©"
+                "Γ£automatische Erkennung      Γ¤Γ©"
+                "Γ£Γ­                          Γ®Γ¤Γ©"
+                "Γ£Γ­ Sprache/Language deutsch Γ®Γ¤Γ©"
+                "Γ¥Γ¦   www.tuxtxt.net  x.xx   Γ¦Γ§Γ©"
+                "Γ«Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γª"
         },
 /*     0000000000111111111122222222223 */
 /*     0123456789012345678901234567890 */
         {
-                "ΰααααααααααααααααααααααααααααβθ"
-                "γ     Configuration menu     δι"
-                "εζζζζζζζζζζζζζζζζζζζζζζζζζζζζηι"
-                "γ1 Favorites:  add page 111  δι"
-                "γνξρς                        δι"
-                "γ+-?                         δι"
-                "γ                            δι"
-                "γ2     Teletext selection    δι"
-                "γν          search          ξδι"
-                "γ                            δι"
-                "γ        Screen format       δι"
-                "γ3 Standard mode 16:9        δι"
-                "γ                            δι"
-                "γ5        Brightness         δι"
-                "γν                          ξδι"
-                "γ6       Transparency        δι"
-                "γν                          ξδι"
-                "γ7   national characterset   δι"
-                "γ automatic recognition      δι"
-                "γν                          ξδι"
-                "γν Sprache/language english ξδι"
-                "εζ   www.tuxtxt.net  x.xx   ζηι"
-                "λμμμμμμμμμμμμμμμμμμμμμμμμμμμμμκ"
+                "Γ Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅ΓΆΓ¨"
+                "Γ£     Configuration menu     Γ¤Γ©"
+                "Γ¥Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ§Γ©"
+                "Γ£1 Favorites:  add page 111  Γ¤Γ©"
+                "Γ£Γ­Γ®Γ±Γ²                        Γ¤Γ©"
+                "Γ£+-?                         Γ¤Γ©"
+                "Γ£                            Γ¤Γ©"
+                "Γ£2     Teletext selection    Γ¤Γ©"
+                "Γ£Γ­          search          Γ®Γ¤Γ©"
+                "Γ£                            Γ¤Γ©"
+                "Γ£        Screen format       Γ¤Γ©"
+                "Γ£3 Standard mode 16:9        Γ¤Γ©"
+                "Γ£                            Γ¤Γ©"
+                "Γ£5        Brightness         Γ¤Γ©"
+                "Γ£Γ­                          Γ®Γ¤Γ©"
+                "Γ£6       Transparency        Γ¤Γ©"
+                "Γ£Γ­                          Γ®Γ¤Γ©"
+                "Γ£7   national characterset   Γ¤Γ©"
+                "Γ£ automatic recognition      Γ¤Γ©"
+                "Γ£Γ­                          Γ®Γ¤Γ©"
+                "Γ£Γ­ Sprache/language english Γ®Γ¤Γ©"
+                "Γ¥Γ¦   www.tuxtxt.net  x.xx   Γ¦Γ§Γ©"
+                "Γ«Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γª"
         },
 /*     0000000000111111111122222222223 */
 /*     0123456789012345678901234567890 */
         {
-                "ΰααααααααααααααααααααααααααααβθ"
-                "γ    Menu de configuration   δι"
-                "εζζζζζζζζζζζζζζζζζζζζζζζζζζζζηι"
-                "γ1 Favorites: ajout. page 111δι"
-                "γνξρς                        δι"
-                "γ+-?                         δι"
-                "γ                            δι"
-                "γ2  Selection de teletext    δι"
-                "γν        recherche         ξδι"
-                "γ                            δι"
-                "γ      Format de l'#cran     δι"
-                "γ3 Mode standard 16:9        δι"
-                "γ                            δι"
-                "γ5          Clarte           δι"
-                "γν                          ξδι"
-                "γ6       Transparence        δι"
-                "γν                          ξδι"
-                "γ7     police nationale      δι"
-                "γreconn. automatique         δι"
-                "γν                          ξδι"
-                "γν Sprache/language francaisξδι"
-                "εζ   www.tuxtxt.net  x.xx   ζηι"
-                "λμμμμμμμμμμμμμμμμμμμμμμμμμμμμμκ"
+                "Γ Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅ΓΆΓ¨"
+                "Γ£    Menu de configuration   Γ¤Γ©"
+                "Γ¥Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ§Γ©"
+                "Γ£1 Favorites: ajout. page 111Γ¤Γ©"
+                "Γ£Γ­Γ®Γ±Γ²                        Γ¤Γ©"
+                "Γ£+-?                         Γ¤Γ©"
+                "Γ£                            Γ¤Γ©"
+                "Γ£2  Selection de teletext    Γ¤Γ©"
+                "Γ£Γ­        recherche         Γ®Γ¤Γ©"
+                "Γ£                            Γ¤Γ©"
+                "Γ£      Format de l'#cran     Γ¤Γ©"
+                "Γ£3 Mode standard 16:9        Γ¤Γ©"
+                "Γ£                            Γ¤Γ©"
+                "Γ£5          Clarte           Γ¤Γ©"
+                "Γ£Γ­                          Γ®Γ¤Γ©"
+                "Γ£6       Transparence        Γ¤Γ©"
+                "Γ£Γ­                          Γ®Γ¤Γ©"
+                "Γ£7     police nationale      Γ¤Γ©"
+                "Γ£reconn. automatique         Γ¤Γ©"
+                "Γ£Γ­                          Γ®Γ¤Γ©"
+                "Γ£Γ­ Sprache/language francaisΓ®Γ¤Γ©"
+                "Γ¥Γ¦   www.tuxtxt.net  x.xx   Γ¦Γ§Γ©"
+                "Γ«Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γª"
         },
 /*     0000000000111111111122222222223 */
 /*     0123456789012345678901234567890 */
         {
-                "ΰααααααααααααααααααααααααααααβθ"
-                "γ      Configuratiemenu      δι"
-                "εζζζζζζζζζζζζζζζζζζζζζζζζζζζζηι"
-                "γ1 Favorieten: toev. pag 111 δι"
-                "γνξρς                        δι"
-                "γ+-?                         δι"
-                "γ                            δι"
-                "γ2     Teletekst-selectie    δι"
-                "γν          zoeken          ξδι"
-                "γ                            δι"
-                "γ     Beeldschermformaat     δι"
-                "γ3   Standaardmode 16:9      δι"
-                "γ                            δι"
-                "γ5        Helderheid         δι"
-                "γν                          ξδι"
-                "γ6       Transparantie       δι"
-                "γν                          ξδι"
-                "γ7    nationale tekenset     δι"
-                "γautomatische herkenning     δι"
-                "γν                          ξδι"
-                "γν Sprache/Language nederl. ξδι"
-                "εζ   www.tuxtxt.net  x.xx   ζηι"
-                "λμμμμμμμμμμμμμμμμμμμμμμμμμμμμμκ"
+                "Γ Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅ΓΆΓ¨"
+                "Γ£      Configuratiemenu      Γ¤Γ©"
+                "Γ¥Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ§Γ©"
+                "Γ£1 Favorieten: toev. pag 111 Γ¤Γ©"
+                "Γ£Γ­Γ®Γ±Γ²                        Γ¤Γ©"
+                "Γ£+-?                         Γ¤Γ©"
+                "Γ£                            Γ¤Γ©"
+                "Γ£2     Teletekst-selectie    Γ¤Γ©"
+                "Γ£Γ­          zoeken          Γ®Γ¤Γ©"
+                "Γ£                            Γ¤Γ©"
+                "Γ£     Beeldschermformaat     Γ¤Γ©"
+                "Γ£3   Standaardmode 16:9      Γ¤Γ©"
+                "Γ£                            Γ¤Γ©"
+                "Γ£5        Helderheid         Γ¤Γ©"
+                "Γ£Γ­                          Γ®Γ¤Γ©"
+                "Γ£6       Transparantie       Γ¤Γ©"
+                "Γ£Γ­                          Γ®Γ¤Γ©"
+                "Γ£7    nationale tekenset     Γ¤Γ©"
+                "Γ£automatische herkenning     Γ¤Γ©"
+                "Γ£Γ­                          Γ®Γ¤Γ©"
+                "Γ£Γ­ Sprache/Language nederl. Γ®Γ¤Γ©"
+                "Γ¥Γ¦   www.tuxtxt.net  x.xx   Γ¦Γ§Γ©"
+                "Γ«Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γª"
         },
 /*     0000000000111111111122222222223 */
 /*     0123456789012345678901234567890 */
         {
-               "ΰααααααααααααααααααααααααααααβθ"
-                "γ      Lemo} quhl_seym       δι"
-                "εζζζζζζζζζζζζζζζζζζζζζζζζζζζζηι"
-                "γ1 Vaboq_:    pqo_h. sek. 111δι"
-                "γνξρς                        δι"
-                "γ+-?                         δι"
-                "γ                            δι"
-                "γ2     Epikoc^ Teket]nt      δι"
-                "γν        Amaf^tgsg         ξδι"
-                "γ                            δι"
-                "γ       Loqv^ oh|mgr         δι"
-                "γ3 Tq|por pq|tupor   16:9    δι"
-                "γ                            δι"
-                "γ5       Kalpq|tgta          δι"
-                "γν                          ξδι"
-                "γ6       Diav\\meia           δι"
-                "γν                          ξδι"
-                "γ7    Ehmij^ tuposeiq\\       δι"
-                "γaut|latg amacm~qisg         δι"
-                "γν                          ξδι"
-                "γν Ck~ssa/Language ekkgmij\\ ξδι"
-                "εζ   www.tuxtxt.net  x.xx   ζηι"
-                "λμμμμμμμμμμμμμμμμμμμμμμμμμμμμμκ"
+               "Γ Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅ΓΆΓ¨"
+                "Γ£      Lemo} quhl_seym       Γ¤Γ©"
+                "Γ¥Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ§Γ©"
+                "Γ£1 Vaboq_:    pqo_h. sek. 111Γ¤Γ©"
+                "Γ£Γ­Γ®Γ±Γ²                        Γ¤Γ©"
+                "Γ£+-?                         Γ¤Γ©"
+                "Γ£                            Γ¤Γ©"
+                "Γ£2     Epikoc^ Teket]nt      Γ¤Γ©"
+                "Γ£Γ­        Amaf^tgsg         Γ®Γ¤Γ©"
+                "Γ£                            Γ¤Γ©"
+                "Γ£       Loqv^ oh|mgr         Γ¤Γ©"
+                "Γ£3 Tq|por pq|tupor   16:9    Γ¤Γ©"
+                "Γ£                            Γ¤Γ©"
+                "Γ£5       Kalpq|tgta          Γ¤Γ©"
+                "Γ£Γ­                          Γ®Γ¤Γ©"
+                "Γ£6       Diav\\meia           Γ¤Γ©"
+                "Γ£Γ­                          Γ®Γ¤Γ©"
+                "Γ£7    Ehmij^ tuposeiq\\       Γ¤Γ©"
+                "Γ£aut|latg amacm~qisg         Γ¤Γ©"
+                "Γ£Γ­                          Γ®Γ¤Γ©"
+                "Γ£Γ­ Ck~ssa/Language ekkgmij\\ Γ®Γ¤Γ©"
+                "Γ¥Γ¦   www.tuxtxt.net  x.xx   Γ¦Γ§Γ©"
+                "Γ«Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γª"
         },
 /*     0000000000111111111122222222223 */
 /*     0123456789012345678901234567890 */
         {
-                "ΰααααααααααααααααααααααααααααβθ"
-                "γ   Menu di configurazione   δι"
-                "εζζζζζζζζζζζζζζζζζζζζζζζζζζζζηι"
-                "γ1  Preferiti:  agg. pag.111 δι"
-                "γνξρς                        δι"
-                "γ+-?                         δι"
-                "γ                            δι"
-                "γ2   Selezione televideo     δι"
-                "γν         ricerca          ξδι"
-                "γ                            δι"
-                "γ      Formato schermo       δι"
-                "γ3  Modo standard 16:9       δι"
-                "γ                            δι"
-                "γ5        Luminosit{         δι"
-                "γν                          ξδι"
-                "γ6        Trasparenza        δι"
-                "γν                          ξδι"
-                "γ7   nazionalita'caratteri   δι"
-                "γ riconoscimento automatico  δι"
-                "γν                          ξδι"
-                "γν Lingua/Language Italiana ξδι"
-                "εζ   www.tuxtxt.net  x.xx   ζηι"
-                "λμμμμμμμμμμμμμμμμμμμμμμμμμμμμμκ"
+                "Γ Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅ΓΆΓ¨"
+                "Γ£   Menu di configurazione   Γ¤Γ©"
+                "Γ¥Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ§Γ©"
+                "Γ£1  Preferiti:  agg. pag.111 Γ¤Γ©"
+                "Γ£Γ­Γ®Γ±Γ²                        Γ¤Γ©"
+                "Γ£+-?                         Γ¤Γ©"
+                "Γ£                            Γ¤Γ©"
+                "Γ£2   Selezione televideo     Γ¤Γ©"
+                "Γ£Γ­         ricerca          Γ®Γ¤Γ©"
+                "Γ£                            Γ¤Γ©"
+                "Γ£      Formato schermo       Γ¤Γ©"
+                "Γ£3  Modo standard 16:9       Γ¤Γ©"
+                "Γ£                            Γ¤Γ©"
+                "Γ£5        Luminosit{         Γ¤Γ©"
+                "Γ£Γ­                          Γ®Γ¤Γ©"
+                "Γ£6        Trasparenza        Γ¤Γ©"
+                "Γ£Γ­                          Γ®Γ¤Γ©"
+                "Γ£7   nazionalita'caratteri   Γ¤Γ©"
+                "Γ£ riconoscimento automatico  Γ¤Γ©"
+                "Γ£Γ­                          Γ®Γ¤Γ©"
+                "Γ£Γ­ Lingua/Language Italiana Γ®Γ¤Γ©"
+                "Γ¥Γ¦   www.tuxtxt.net  x.xx   Γ¦Γ§Γ©"
+                "Γ«Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γª"
         },
 /*     0000000000111111111122222222223 */
 /*     0123456789012345678901234567890 */
         {
-                "ΰααααααααααααααααααααααααααααβθ"
-                "γ        Konfiguracja        δι"
-                "εζζζζζζζζζζζζζζζζζζζζζζζζζζζζηι"
-                "γ1 Ulubione : kasuj  str. 111δι"
-                "γνξρς                        δι"
-                "γ+-?                         δι"
-                "γ                            δι"
-                "γ2     Wyb_r telegazety      δι"
-                "γν          szukaj          ξδι"
-                "γ                            δι"
-                "γ       Format obrazu        δι"
-                "γ3 Tryb standard 16:9        δι"
-                "γ                            δι"
-                "γ5          Jasno|^          δι"
-                "γν                          ξδι"
-                "γ6      Prze~roczysto|^      δι"
-                "γν                          ξδι"
-                "γ7 Znaki charakterystyczne   δι"
-                "γ automatyczne rozpozn.      δι"
-                "γν                          ξδι"
-                "γν  J`zyk/Language   polski ξδι"
-                "εζ   www.tuxtxt.net  x.xx   ζηι"
-                "λμμμμμμμμμμμμμμμμμμμμμμμμμμμμμκ"
+                "Γ Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅ΓΆΓ¨"
+                "Γ£        Konfiguracja        Γ¤Γ©"
+                "Γ¥Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ§Γ©"
+                "Γ£1 Ulubione : kasuj  str. 111Γ¤Γ©"
+                "Γ£Γ­Γ®Γ±Γ²                        Γ¤Γ©"
+                "Γ£+-?                         Γ¤Γ©"
+                "Γ£                            Γ¤Γ©"
+                "Γ£2     Wyb_r telegazety      Γ¤Γ©"
+                "Γ£Γ­          szukaj          Γ®Γ¤Γ©"
+                "Γ£                            Γ¤Γ©"
+                "Γ£       Format obrazu        Γ¤Γ©"
+                "Γ£3 Tryb standard 16:9        Γ¤Γ©"
+                "Γ£                            Γ¤Γ©"
+                "Γ£5          Jasno|^          Γ¤Γ©"
+                "Γ£Γ­                          Γ®Γ¤Γ©"
+                "Γ£6      Prze~roczysto|^      Γ¤Γ©"
+                "Γ£Γ­                          Γ®Γ¤Γ©"
+                "Γ£7 Znaki charakterystyczne   Γ¤Γ©"
+                "Γ£ automatyczne rozpozn.      Γ¤Γ©"
+                "Γ£Γ­                          Γ®Γ¤Γ©"
+                "Γ£Γ­  J`zyk/Language   polski Γ®Γ¤Γ©"
+                "Γ¥Γ¦   www.tuxtxt.net  x.xx   Γ¦Γ§Γ©"
+                "Γ«Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γª"
         },
 /*     0000000000111111111122222222223 */
 /*     0123456789012345678901234567890 */
         {
-                "ΰααααααααααααααααααααααααααααβθ"
-                "γ     Konfigurationsmeny     δι"
-                "εζζζζζζζζζζζζζζζζζζζζζζζζζζζζηι"
-                "γ1 Favoriter: sida 111 ny    δι"
-                "γνξρς                        δι"
-                "γ+-?                         δι"
-                "γ                            δι"
-                "γ2      TextTV v{ljaren      δι"
-                "γν            s|k           ξδι"
-                "γ                            δι"
-                "γ        TV- format          δι"
-                "γ3 Standard l{ge 16:9        δι"
-                "γ                            δι"
-                "γ5        Ljusstyrka         δι"
-                "γν                          ξδι"
-                "γ6     Genomskinlighet       δι"
-                "γν                          ξδι"
-                "γ7nationell teckenupps{ttningδι"
-                "γ automatisk igenk{nning     δι"
-                "γν                          ξδι"
-                "γν Sprache/language svenska ξδι"
-                "εζ   www.tuxtxt.net  x.xx   ζηι"
-                "λμμμμμμμμμμμμμμμμμμμμμμμμμμμμμκ"
+                "Γ Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅ΓΆΓ¨"
+                "Γ£     Konfigurationsmeny     Γ¤Γ©"
+                "Γ¥Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ§Γ©"
+                "Γ£1 Favoriter: sida 111 ny    Γ¤Γ©"
+                "Γ£Γ­Γ®Γ±Γ²                        Γ¤Γ©"
+                "Γ£+-?                         Γ¤Γ©"
+                "Γ£                            Γ¤Γ©"
+                "Γ£2      TextTV v{ljaren      Γ¤Γ©"
+                "Γ£Γ­            s|k           Γ®Γ¤Γ©"
+                "Γ£                            Γ¤Γ©"
+                "Γ£        TV- format          Γ¤Γ©"
+                "Γ£3 Standard l{ge 16:9        Γ¤Γ©"
+                "Γ£                            Γ¤Γ©"
+                "Γ£5        Ljusstyrka         Γ¤Γ©"
+                "Γ£Γ­                          Γ®Γ¤Γ©"
+                "Γ£6     Genomskinlighet       Γ¤Γ©"
+                "Γ£Γ­                          Γ®Γ¤Γ©"
+                "Γ£7nationell teckenupps{ttningΓ¤Γ©"
+                "Γ£ automatisk igenk{nning     Γ¤Γ©"
+                "Γ£Γ­                          Γ®Γ¤Γ©"
+                "Γ£Γ­ Sprache/language svenska Γ®Γ¤Γ©"
+                "Γ¥Γ¦   www.tuxtxt.net  x.xx   Γ¦Γ§Γ©"
+                "Γ«Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γª"
         },
 /*     0000000000111111111122222222223 */
 /*     0123456789012345678901234567890 */
         {
-                "ΰααααααααααααααααααααααααααααβθ"
-                "γ        Asetusvalikko       δι"
-                "εζζζζζζζζζζζζζζζζζζζζζζζζζζζζηι"
-                "γ1 Suosikit: sivu 111 lis{{  δι"
-                "γνξρς                        δι"
-                "γ+-?                         δι"
-                "γ                            δι"
-                "γ2   Tekstikanavan valinta   δι"
-                "γν          search          ξδι"
-                "γ                            δι"
-                "γ         N{ytt|tila         δι"
-                "γ3 Vakiotila     16:9        δι"
-                "γ                            δι"
-                "γ5         Kirkkaus          δι"
-                "γν                          ξδι"
-                "γ6       L{pin{kyvyys        δι"
-                "γν                          ξδι"
-                "γ7   kansallinen merkist|    δι"
-                "γ automaattinen tunnistus    δι"
-                "γν                          ξδι"
-                "γν Kieli            suomi   ξδι"
-                "εζ   www.tuxtxt.net  x.xx   ζηι"
-                "λμμμμμμμμμμμμμμμμμμμμμμμμμμμμμκ"
+                "Γ Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅ΓΆΓ¨"
+                "Γ£        Asetusvalikko       Γ¤Γ©"
+                "Γ¥Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ§Γ©"
+                "Γ£1 Suosikit: sivu 111 lis{{  Γ¤Γ©"
+                "Γ£Γ­Γ®Γ±Γ²                        Γ¤Γ©"
+                "Γ£+-?                         Γ¤Γ©"
+                "Γ£                            Γ¤Γ©"
+                "Γ£2   Tekstikanavan valinta   Γ¤Γ©"
+                "Γ£Γ­          search          Γ®Γ¤Γ©"
+                "Γ£                            Γ¤Γ©"
+                "Γ£         N{ytt|tila         Γ¤Γ©"
+                "Γ£3 Vakiotila     16:9        Γ¤Γ©"
+                "Γ£                            Γ¤Γ©"
+                "Γ£5         Kirkkaus          Γ¤Γ©"
+                "Γ£Γ­                          Γ®Γ¤Γ©"
+                "Γ£6       L{pin{kyvyys        Γ¤Γ©"
+                "Γ£Γ­                          Γ®Γ¤Γ©"
+                "Γ£7   kansallinen merkist|    Γ¤Γ©"
+                "Γ£ automaattinen tunnistus    Γ¤Γ©"
+                "Γ£Γ­                          Γ®Γ¤Γ©"
+                "Γ£Γ­ Kieli            suomi   Γ®Γ¤Γ©"
+                "Γ¥Γ¦   www.tuxtxt.net  x.xx   Γ¦Γ§Γ©"
+                "Γ«Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γª"
         },
 /*     0000000000111111111122222222223 */
 /*     0123456789012345678901234567890 */
         {
-                "ΰααααααααααααααααααααααααααααβθ"
-                "γ    Menu de Configuracao    δι"
-                "εζζζζζζζζζζζζζζζζζζζζζζζζζζζζηι"
-                "γ1 Favoritos:  adi pag. 111  δι"
-                "γνξρς                        δι"
-                "γ+-?                         δι"
-                "γ                            δι"
-                "γ2     Seleccao Teletext     δι"
-                "γν         Procurar         ξδι"
-                "γ                            δι"
-                "γ       formato ecran        δι"
-                "γ3 Standard mode 16:9        δι"
-                "γ                            δι"
-                "γ5          Brilho           δι"
-                "γν                          ξδι"
-                "γ6      Transparencia        δι"
-                "γν                          ξδι"
-                "γ7  Caracteres nacionaist    δι"
-                "γreconhecimento utomatico    δι"
-                "γν                          ξδι"
-                "γν Lingua      Portuguesa   ξδι"
-                "εζ   www.tuxtxt.net  x.xx   ζηι"
-                "λμμμμμμμμμμμμμμμμμμμμμμμμμμμμμκ"
+                "Γ Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅ΓΆΓ¨"
+                "Γ£    Menu de Configuracao    Γ¤Γ©"
+                "Γ¥Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ§Γ©"
+                "Γ£1 Favoritos:  adi pag. 111  Γ¤Γ©"
+                "Γ£Γ­Γ®Γ±Γ²                        Γ¤Γ©"
+                "Γ£+-?                         Γ¤Γ©"
+                "Γ£                            Γ¤Γ©"
+                "Γ£2     Seleccao Teletext     Γ¤Γ©"
+                "Γ£Γ­         Procurar         Γ®Γ¤Γ©"
+                "Γ£                            Γ¤Γ©"
+                "Γ£       formato ecran        Γ¤Γ©"
+                "Γ£3 Standard mode 16:9        Γ¤Γ©"
+                "Γ£                            Γ¤Γ©"
+                "Γ£5          Brilho           Γ¤Γ©"
+                "Γ£Γ­                          Γ®Γ¤Γ©"
+                "Γ£6      Transparencia        Γ¤Γ©"
+                "Γ£Γ­                          Γ®Γ¤Γ©"
+                "Γ£7  Caracteres nacionaist    Γ¤Γ©"
+                "Γ£reconhecimento utomatico    Γ¤Γ©"
+                "Γ£Γ­                          Γ®Γ¤Γ©"
+                "Γ£Γ­ Lingua      Portuguesa   Γ®Γ¤Γ©"
+                "Γ¥Γ¦   www.tuxtxt.net  x.xx   Γ¦Γ§Γ©"
+                "Γ«Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γª"
         },
 /*     0000000000111111111122222222223 */
 /*     0123456789012345678901234567890 */
         {
-                "ΰααααααααααααααααααααααααααααβθ"
-                "γ        Konfiguraciq        δι"
-                "εζζζζζζζζζζζζζζζζζζζζζζζζζζζζηι"
-                "γ1 Faworit&:   dob str. 111  δι"
-                "γνξρς                        δι"
-                "γ+-?                         δι"
-                "γ                            δι"
-                "γ2     W&bor teleteksta      δι"
-                "γν           Poisk          ξδι"
-                "γ                            δι"
-                "γ       Format kartinki      δι"
-                "γ3 Stand. revim  16:9        δι"
-                "γ                            δι"
-                "γ5          Qrkostx          δι"
-                "γν                          ξδι"
-                "γ6       Prozra~nostx        δι"
-                "γν                          ξδι"
-                "γ7  Ispolxzuem&j alfawit     δι"
-                "γ      awtoopredelenie       δι"
-                "γν                          ξδι"
-                "γν  Qz&k:         Russkij   ξδι"
-                "εζ   www.tuxtxt.net  x.xx   ζηι"
-                "λμμμμμμμμμμμμμμμμμμμμμμμμμμμμμκ"
+                "Γ Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅Γ΅ΓΆΓ¨"
+                "Γ£        Konfiguraciq        Γ¤Γ©"
+                "Γ¥Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ¦Γ§Γ©"
+                "Γ£1 Faworit&:   dob str. 111  Γ¤Γ©"
+                "Γ£Γ­Γ®Γ±Γ²                        Γ¤Γ©"
+                "Γ£+-?                         Γ¤Γ©"
+                "Γ£                            Γ¤Γ©"
+                "Γ£2     W&bor teleteksta      Γ¤Γ©"
+                "Γ£Γ­           Poisk          Γ®Γ¤Γ©"
+                "Γ£                            Γ¤Γ©"
+                "Γ£       Format kartinki      Γ¤Γ©"
+                "Γ£3 Stand. revim  16:9        Γ¤Γ©"
+                "Γ£                            Γ¤Γ©"
+                "Γ£5          Qrkostx          Γ¤Γ©"
+                "Γ£Γ­                          Γ®Γ¤Γ©"
+                "Γ£6       Prozra~nostx        Γ¤Γ©"
+                "Γ£Γ­                          Γ®Γ¤Γ©"
+                "Γ£7  Ispolxzuem&j alfawit     Γ¤Γ©"
+                "Γ£      awtoopredelenie       Γ¤Γ©"
+                "Γ£Γ­                          Γ®Γ¤Γ©"
+                "Γ£Γ­  Qz&k:         Russkij   Γ®Γ¤Γ©"
+                "Γ¥Γ¦   www.tuxtxt.net  x.xx   Γ¦Γ§Γ©"
+                "Γ«Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γ¬Γª"
         }
 };
 
 const char catchmenutext[][81] =
 {
-	{ "        νοπξ w{hlen   ρς anzeigen       "
+	{ "        Γ­Γ―Γ°Γ® w{hlen   Γ±Γ² anzeigen       "
 	  "0000000011110000000000110000000000000000" },
-	{ "        νοπξ select   ρς show           "
+	{ "        Γ­Γ―Γ°Γ® select   Γ±Γ² show           "
 	  "0000000011110000000000110000000000000000" },
-	{ "  νοπξ selectionner   ρς montrer        "
+	{ "  Γ­Γ―Γ°Γ® selectionner   Γ±Γ² montrer        "
 	  "0011110000000000000000110000000000000000" },
-	{ "        νοπξ kiezen   ρς tonen          "
+	{ "        Γ­Γ―Γ°Γ® kiezen   Γ±Γ² tonen          "
 	  "0000000011110000000000110000000000000000" },
-	{ "        νοπξ epikoc^  ρς pqobok^        "
+	{ "        Γ­Γ―Γ°Γ® epikoc^  Γ±Γ² pqobok^        "
 	  "0000000011110000000000110000000000000000" },
-	{ "        νοπξseleziona ρς mostra         "
+	{ "        Γ­Γ―Γ°Γ®seleziona Γ±Γ² mostra         "
 	  "0000000011110000000000110000000000000000" },
-	{ "        νοπξ wybiez   ρς wyswietl       "
+	{ "        Γ­Γ―Γ°Γ® wybiez   Γ±Γ² wyswietl       "
 	  "0000000011110000000000110000000000000000" },
-	{ "        νοπξ v{lj     ρς visa           "
+	{ "        Γ­Γ―Γ°Γ® v{lj     Γ±Γ² visa           "
      "0000000011110000000000110000000000000000" },
-	{ "        νοπξ valitse  ρς n{yt{          "
+	{ "        Γ­Γ―Γ°Γ® valitse  Γ±Γ² n{yt{          "
 	  "0000000011110000000000110000000000000000" },
 };
 
 const char message_3[][39] =
 {
-	{ "γ   suche nach Teletext-Anbietern   δι" },
-	{ "γ  searching for teletext Services  δι" },
-	{ "γ  recherche des services teletext  δι" },
-	{ "γ zoeken naar teletekst aanbieders  δι" },
-	{ "γ     amaf^tgsg voq]ym Teket]nt     δι" },
-	{ "γ     attesa opzioni televideo      δι" },
-	{ "γ  poszukiwanie sygna}u telegazety  δι" },
-	{ "γ    s|ker efter TextTV tj{nster    δι" },
-	{ "γ   etsit{{n Teksti-TV -palvelua    δι" },
+	{ "Γ£   suche nach Teletext-Anbietern   Γ¤Γ©" },
+	{ "Γ£  searching for teletext Services  Γ¤Γ©" },
+	{ "Γ£  recherche des services teletext  Γ¤Γ©" },
+	{ "Γ£ zoeken naar teletekst aanbieders  Γ¤Γ©" },
+	{ "Γ£     amaf^tgsg voq]ym Teket]nt     Γ¤Γ©" },
+	{ "Γ£     attesa opzioni televideo      Γ¤Γ©" },
+	{ "Γ£  poszukiwanie sygna}u telegazety  Γ¤Γ©" },
+	{ "Γ£    s|ker efter TextTV tj{nster    Γ¤Γ©" },
+	{ "Γ£   etsit{{n Teksti-TV -palvelua    Γ¤Γ©" },
 };
 
-const char message_3_blank[] = "γ                                   δι";
+const char message_3_blank[] = "Γ£                                   Γ¤Γ©";
 
 const char message_7[][39] =
 {
-	{ "γ kein Teletext auf dem Transponder δι" },
-	{ "γ   no teletext on the transponder  δι" },
-	{ "γ pas de teletext sur le transponderδι" },
-	{ "γ geen teletekst op de transponder  δι" },
-	{ "γ jal]la Teket]nt ston amaletadot^  δι" },
-	{ "γ nessun televideo sul trasponder   δι" },
-	{ "γ   brak sygna}u na transponderze   δι" },
-	{ "γ ingen TextTV p} denna transponder δι" },
-	{ "γ    Ei Teksti-TV:t{ l{hettimell{   δι" },
+	{ "Γ£ kein Teletext auf dem Transponder Γ¤Γ©" },
+	{ "Γ£   no teletext on the transponder  Γ¤Γ©" },
+	{ "Γ£ pas de teletext sur le transponderΓ¤Γ©" },
+	{ "Γ£ geen teletekst op de transponder  Γ¤Γ©" },
+	{ "Γ£ jal]la Teket]nt ston amaletadot^  Γ¤Γ©" },
+	{ "Γ£ nessun televideo sul trasponder   Γ¤Γ©" },
+	{ "Γ£   brak sygna}u na transponderze   Γ¤Γ©" },
+	{ "Γ£ ingen TextTV p} denna transponder Γ¤Γ©" },
+	{ "Γ£    Ei Teksti-TV:t{ l{hettimell{   Γ¤Γ©" },
 };
 
 const char message_8[][39] =
 {
 /*    00000000001111111111222222222233333333334 */
 /*    01234567890123456789012345678901234567890 */
-	{ "γ  warte auf Empfang von Seite 100  δι" },
-	{ "γ waiting for reception of page 100 δι" },
-	{ "γ attentre la rιception de page 100 δι" },
-	{ "γwachten op ontvangst van pagina 100δι" },
-	{ "γ     amal]my k^xg sek_dar 100      δι" },
-	{ "γ   attesa ricezione pagina 100     δι" },
-	{ "γ     oczekiwanie na stron` 100     δι" },
-	{ "γ  v{ntar p} mottagning av sida 100 δι" },
-	{ "γ        Odotetaan sivua 100        δι" },
+	{ "Γ£  warte auf Empfang von Seite 100  Γ¤Γ©" },
+	{ "Γ£ waiting for reception of page 100 Γ¤Γ©" },
+	{ "Γ£ attentre la rΓ©ception de page 100 Γ¤Γ©" },
+	{ "Γ£wachten op ontvangst van pagina 100Γ¤Γ©" },
+	{ "Γ£     amal]my k^xg sek_dar 100      Γ¤Γ©" },
+	{ "Γ£   attesa ricezione pagina 100     Γ¤Γ©" },
+	{ "Γ£     oczekiwanie na stron` 100     Γ¤Γ©" },
+	{ "Γ£  v{ntar p} mottagning av sida 100 Γ¤Γ©" },
+	{ "Γ£        Odotetaan sivua 100        Γ¤Γ©" },
 };
 
 const char message8pagecolumn[] = /* last(!) column of page to show in each language */
@@ -1039,16 +1039,16 @@ tstPageAttr atrtable[] =
 	{ white  , menu1 , C_G0P, 0, 0, 0 ,0, 0, 0, 0, 0, 0, 0, 0x3f}, /* ATR_MSGDRM3 */
 	{ menu1  , blue  , C_G0P, 0, 0, 0 ,0, 0, 0, 0, 0, 0, 0, 0x3f}, /* ATR_MENUHIL0 5a Z */
 	{ white  , blue  , C_G0P, 0, 0, 0 ,0, 0, 0, 0, 0, 0, 0, 0x3f}, /* ATR_MENUHIL1 58 X */
-	{ menu2  , transp, C_G0P, 0, 0, 0 ,0, 0, 0, 0, 0, 0, 0, 0x3f}, /* ATR_MENUHIL2 9b › */
-	{ menu2  , menu1 , C_G0P, 0, 0, 0 ,0, 0, 0, 0, 0, 0, 0, 0x3f}, /* ATR_MENU0 ab « */
-	{ yellow , menu1 , C_G0P, 0, 0, 0 ,0, 0, 0, 0, 0, 0, 0, 0x3f}, /* ATR_MENU1 a4 ¤ */
-	{ menu2  , transp, C_G0P, 0, 0, 0 ,0, 0, 0, 0, 0, 0, 0, 0x3f}, /* ATR_MENU2 9b › */
-	{ menu2  , menu3 , C_G0P, 0, 0, 0 ,0, 0, 0, 0, 0, 0, 0, 0x3f}, /* ATR_MENU3 cb Λ */
-	{ cyan   , menu3 , C_G0P, 0, 0, 0 ,0, 0, 0, 0, 0, 0, 0, 0x3f}, /* ATR_MENU4 c7 Η */
-	{ white  , menu3 , C_G0P, 0, 0, 0 ,0, 0, 0, 0, 0, 0, 0, 0x3f}, /* ATR_MENU5 c8 Θ */
-	{ white  , menu1 , C_G0P, 0, 0, 0 ,0, 0, 0, 0, 0, 0, 0, 0x3f}, /* ATR_MENU6 a8 ¨ */
-	{ yellow , menu1 , C_G0P, 0, 0, 0 ,0, 0, 0, 0, 0, 0, 0, 0x3f}, /* ATR_CATCHMENU0 a4 ¤ */
-	{ white  , menu1 , C_G0P, 0, 0, 0 ,0, 0, 0, 0, 0, 0, 0, 0x3f}  /* ATR_CATCHMENU1 a8 ¨ */
+	{ menu2  , transp, C_G0P, 0, 0, 0 ,0, 0, 0, 0, 0, 0, 0, 0x3f}, /* ATR_MENUHIL2 9b Β› */
+	{ menu2  , menu1 , C_G0P, 0, 0, 0 ,0, 0, 0, 0, 0, 0, 0, 0x3f}, /* ATR_MENU0 ab Β« */
+	{ yellow , menu1 , C_G0P, 0, 0, 0 ,0, 0, 0, 0, 0, 0, 0, 0x3f}, /* ATR_MENU1 a4 Β¤ */
+	{ menu2  , transp, C_G0P, 0, 0, 0 ,0, 0, 0, 0, 0, 0, 0, 0x3f}, /* ATR_MENU2 9b Β› */
+	{ menu2  , menu3 , C_G0P, 0, 0, 0 ,0, 0, 0, 0, 0, 0, 0, 0x3f}, /* ATR_MENU3 cb Γ‹ */
+	{ cyan   , menu3 , C_G0P, 0, 0, 0 ,0, 0, 0, 0, 0, 0, 0, 0x3f}, /* ATR_MENU4 c7 Γ‡ */
+	{ white  , menu3 , C_G0P, 0, 0, 0 ,0, 0, 0, 0, 0, 0, 0, 0x3f}, /* ATR_MENU5 c8 Γ */
+	{ white  , menu1 , C_G0P, 0, 0, 0 ,0, 0, 0, 0, 0, 0, 0, 0x3f}, /* ATR_MENU6 a8 Β¨ */
+	{ yellow , menu1 , C_G0P, 0, 0, 0 ,0, 0, 0, 0, 0, 0, 0, 0x3f}, /* ATR_CATCHMENU0 a4 Β¤ */
+	{ white  , menu1 , C_G0P, 0, 0, 0 ,0, 0, 0, 0, 0, 0, 0, 0x3f}  /* ATR_CATCHMENU1 a8 Β¨ */
 };
 
 /* buffers */
@@ -1232,7 +1232,7 @@ unsigned char *aShapes[] =
 };
 
 /* lcd layout */
-const char lcd_layout[] =
+const unsigned char lcd_layout[] =
 {
 #define ____ 0x0
 #define ___X 0x1
